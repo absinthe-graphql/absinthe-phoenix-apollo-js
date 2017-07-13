@@ -26,7 +26,7 @@ node -e "var package = require('./package.json'); \
   delete package.options; \
   delete package.files; \
   delete package.devDependencies; \
-  package.main = 'absinthe-phoenix.umd.js'; \
+  package.main = 'absinthe-phoenix-apollo.umd.js'; \
   package.module = 'index.js'; \
   package['jsnext:main'] = 'index.js'; \
   package.browser = './browser/index.js'; \
