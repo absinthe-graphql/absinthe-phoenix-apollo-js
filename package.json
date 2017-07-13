@@ -35,7 +35,7 @@
     "publish": "./scripts/publish.sh",
     "prepublish": "npm run package",
     "clean": "rm -fR ./pkg",
-    "precompile": "npm run clean"
+    "precompile": "npm run clean && rm -rf node_modules/@types/async"
   },
   "devDependencies": {
     "rollup": "^0.45.1",
