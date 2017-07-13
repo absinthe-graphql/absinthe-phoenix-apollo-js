@@ -17,11 +17,11 @@ import ApolloClient, {createNetworkInterface} from 'apollo-client';
 
 // Create regular NetworkInterface by using apollo-client's API:
 const networkInterface = createNetworkInterface({
-  uri: 'http://localhost:3000' // Your GraphQL endpoint
+  uri: 'http://localhost:4000' // Your GraphQL endpoint
 });
 
 // Create WebSocket client
-const wsClient = new SubscriptionClient(`ws://localhost:5000/`, {
+const wsClient = new SubscriptionClient(`ws://localhost:4000/socket`, {
   // Pass any arguments you want for initialization
 });
 
