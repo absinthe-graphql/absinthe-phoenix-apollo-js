@@ -1,5 +1,7 @@
 # absinthe-phoenix-apollo
 
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 Support for Apollo Client + Absinthe Subscriptions.
 
 The goal of this package is to provide a client that is a drop-in replacement
@@ -45,4 +47,4 @@ code from more experienced TypeScript developers!
 
 ## License
 
-See [LICENSE.md](/.LICENSE.md).
+See [LICENSE.md](./LICENSE.md).
