@@ -2,13 +2,11 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Support for Apollo Client + Absinthe Subscriptions.
+(OLD) Support for Apollo Client + Absinthe Subscriptions.
 
-The goal of this package is to provide a client that is a drop-in replacement
-for the `SubscriptionClient` from [subscriptions-transport-ws](https://www.npmjs.com/package/subscriptions-transport-ws), used in "hybrid"
-mode (subscriptions over websocket, queries and mutations over HTTP).
+## DEPRECATED
 
-Note: This package is currently non-functional. We're building it!
+Superseded by [@absinthe/socket-apollo-link](https://github.com/absinthe-graphql/absinthe-socket/tree/master/packages/socket-apollo-link).
 
 ## Usage
 
